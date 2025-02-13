@@ -1,0 +1,14 @@
+body{background-color: rgb(220, 162, 247);}
+h1{color:rgb(255, 0, 217);text-align: center;}
+
+h2{color: red;
+    text-shadow:  1px  1px 0 white;
+    text-align: center;}
+p{font-size: 17px;}
+
+img {
+    height: 200px;
+    width: 150px;
+    display: block; /* Makes it a block element */
+    margin: 0 auto; /* Centers it horizontally */
+}
