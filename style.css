@@ -1,0 +1,101 @@
+html {
+    background-color: #fd9eae;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+h3{font-weight: 100;
+color: aliceblue ;
+text-align: center;
+font-size: 14px;}
+
+a{color: white;
+text-decoration: none;}
+html {
+    background-color: #fd9eae;
+    position: relative;
+    overflow: hidden; /* Prevents scrollbars */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.box {
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    cursor: default;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* HEART OVERLAY */
+.heart-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.heart {
+    position: absolute;
+    font-size: 30px;
+    opacity: 0.7;
+}
+
+/* Manually placing hearts */
+.heart:nth-child(1) { top: 10%; left: 20%; }
+.heart:nth-child(2) { top: 30%; left: 50%; }
+.heart:nth-child(3) { top: 60%; left: 10%; }
+.heart:nth-child(4) { top: 80%; left: 70%; }
+.heart:nth-child(5) { top: 50%; left: 90%; }
+.heart:nth-child(6) { top: 20%; left: 80%; }
+.heart:nth-child(7) { top: 40%; left: 30%; }
+.heart:nth-child(8) { top: 70%; left: 50%; }
